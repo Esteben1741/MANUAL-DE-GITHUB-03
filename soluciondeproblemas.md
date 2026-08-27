@@ -43,3 +43,9 @@ La solución de problemas en Git engloba las técnicas y comandos necesarios par
     3.  Guarda y marca el problema como resuelto:
     - git add .
     - git commit -m "Fix: resolución de conflicto"
+
+     "fatal: Unable to create '.git/index.lock': File exists"
+-   **Causa:** Un proceso anterior de Git terminó de manera abrupta o hay otra terminal usando el repositorio.
+    
+-   **Solución:** Elimina manualmente el archivo de bloqueo:
+   - rm -f .git/index.lock
