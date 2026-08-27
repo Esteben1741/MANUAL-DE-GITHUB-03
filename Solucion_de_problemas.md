@@ -49,3 +49,24 @@ La solución de problemas en Git engloba las técnicas y comandos necesarios par
     
 -   **Solución:** Elimina manualmente el archivo de bloqueo:
    - rm -f .git/index.lock
+
+   <!--Agregado Jarid Osorio-->
+
+   ---
+
+## 🛠️ Herramientas de Diagnóstico
+Antes de aplicar cualquier solución, utiliza estos comandos para entender el estado del repositorio:
+
+* `git status`: Muestra el estado del directorio de trabajo y del área de preparación.
+* `git log --oneline --graph --all`: Muestra el historial de commits de forma gráfica y resumida.
+* `git diff`: Permite ver los cambios exactos línea por línea antes de guardarlos.
+* `git reflog`: Muestra el registro de todos los movimientos del puntero `HEAD`, útil para recuperar commits o ramas borradas por error.
+
+---
+
+## 🔄 Manejo de Cambios Temporales y Descarte
+
+### Descartar cambios locales no guardados
+Para revertir un archivo a su estado original antes de modificarlo:
+```bash
+git restore <nombre_archivo>
