@@ -65,3 +65,12 @@ Estas protecciones ayudan a los equipos a mantener las ramas importantes estable
 4.   Escribe el nombre o patrón de la rama (por ejemplo, `main`).
 
 5.  Marca las reglas que deseas aplicar (ej. _Require a pull request before merging_) y guarda los cambios.
+## Tipos de Ramas según su Propósito **(Estrategia de Trabajo)**
+
+|tipo de rama|proposito y funcion |vida util|
+|---|---|---|
+|Main / Master|Contiene el código oficial y estable que está (o irá) a producción.|Permanente|
+|Develop|Sirve como rama de integración para acumular todas las nuevas funciones antes de lanzarlas.|permanente|
+|Feature **(feature/***)|Se usa para construir una funcionalidad específica (ej: feature/login-google).|Temporal (se elimina al fusionarse)|
+|Hotfix **(hotfix/***)|Permite corregir errores críticos directamente sobre producción sin esperar el flujo normal.|Temporal (se fusiona a main y develop)|
+|Release **(release/***)|Se utiliza para preparar, probar y ajustar un lanzamiento formal a producción.|Temporal|
