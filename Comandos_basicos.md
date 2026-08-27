@@ -75,3 +75,9 @@ git fetch origin
 
 # Enviar los commits locales a la rama remota
 git push origin main
+
+## 📌 Conclusión
+
+El dominio de los comandos básicos de Git es un pilar fundamental para cualquier equipo de desarrollo de software. Comprender el ciclo de vida de los archivos (desde el directorio de trabajo local hasta el repositorio remoto) no solo reduce drásticamente el riesgo de pérdida de información y conflictos de código, sino que también garantiza un desarrollo ordenado y escalable.
+
+Al integrar estas herramientas en la rutina diaria, los desarrolladores logran mantener un historial transparente y trazable, lo que facilita la auditoría de cambios y optimiza la colaboración en proyectos de cualquier escala.
