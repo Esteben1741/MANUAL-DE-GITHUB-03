@@ -80,4 +80,27 @@ git push origin main
 
 El dominio de los comandos básicos de Git es un pilar fundamental para cualquier equipo de desarrollo de software. Comprender el ciclo de vida de los archivos (desde el directorio de trabajo local hasta el repositorio remoto) no solo reduce drásticamente el riesgo de pérdida de información y conflictos de código, sino que también garantiza un desarrollo ordenado y escalable.
 
-Al integrar estas herramientas en la rutina diaria, los desarrolladores logran mantener un historial transparente y trazable, lo que facilita la auditoría de cambios y optimiza la colaboración en proyectos de cualquier escala.
+Al integrar estas herramientas en la rutina diaria, los desarrolladores logran mantener un historial transparente y trazable, lo que facilita la auditoría de cambios y optimiza la colaboración en proyectos de cualquier escala.    
+
+# Ciclo de vida de los cambios en Git
+
+Git utiliza diferentes etapas para gestionar los cambios realizados en un proyecto. Las tres zonas principales son:
+
+- **Working Directory:** es el directorio de trabajo donde el desarrollador modifica, crea o elimina archivos del proyecto.
+
+- **Staging Area (Index):** es el área donde se preparan los cambios que serán incluidos en el próximo commit. Para agregar los archivos se utiliza el comando `git add`.
+
+- **Repository:** es el repositorio donde quedan registrados permanentemente los cambios mediante el comando `git commit`.
+
+## Flujo básico de trabajo
+
+El proceso habitual para guardar y compartir cambios puede representarse de la siguiente manera:
+
+```text
+Modificar archivos
+       ↓
+   git add
+       ↓
+   git commit
+       ↓
+    git push
