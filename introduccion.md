@@ -16,3 +16,7 @@
 | Repositorios | Son espacios donde se almacenan los archivos y código de un proyecto. |
 | Colaboración | Permite trabajar en equipo mediante ramas, commits y pull requests. |
 | Importancia | Es una herramienta muy utilizada en proyectos de programación, educación y desarrollo profesional. |
+
+ # ¿Cómo puede GitHub ayudarnos a mi equipo y a mí?
+
+GitHub permite que varios desarrolladores trabajen simultáneamente en un mismo proyecto, reduce el riesgo de duplicación o conflictos de trabajo y puede ayudar a disminuir el tiempo de producción. Con GitHub, los desarrolladores pueden compilar código, realizar un seguimiento de los cambios e innovar soluciones a los problemas que puedan surgir durante el desarrollo del sitio web, todo al mismo tiempo. Quienes no son desarrolladores también pueden usarlo para crear, editar y actualizar el contenido del sitio web, como demuestra Carpenter en su tutorial.
