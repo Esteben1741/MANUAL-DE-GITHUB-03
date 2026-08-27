@@ -20,3 +20,20 @@
  # ¿Cómo puede GitHub ayudarnos a mi equipo y a mí?
 
 GitHub permite que varios desarrolladores trabajen simultáneamente en un mismo proyecto, reduce el riesgo de duplicación o conflictos de trabajo y puede ayudar a disminuir el tiempo de producción. Con GitHub, los desarrolladores pueden compilar código, realizar un seguimiento de los cambios e innovar soluciones a los problemas que puedan surgir durante el desarrollo del sitio web, todo al mismo tiempo. Quienes no son desarrolladores también pueden usarlo para crear, editar y actualizar el contenido del sitio web, como demuestra Carpenter en su tutorial.
+
+## ¿Cómo se habla GitHub?
+
+-   **Git** : una herramienta que permite a los desarrolladores y a otros usuarios utilizar el control de versiones.
+-   **GitHub** : una de las muchas interfaces web para usar Git.
+-   **Organización (org)** — un mecanismo de agrupación que permite a los equipos colaborar en muchos proyectos a la vez.
+-   **Repositorio (repo)** : una carpeta donde se almacenan todos los archivos y sus historiales de versiones.
+-   **Rama** : una versión del repositorio que permite trabajar sin afectar a otras ramas. Los repositorios pueden tener varias ramas para diferentes cambios que se estén probando o considerando, además de una rama predeterminada que sirve como fuente de información fidedigna.
+-   **Bifurcación (Fork** ): un nuevo repositorio que hereda de un repositorio padre "upstream". Se utiliza para sugerir cambios a un repositorio público "upstream" por parte de alguien que no tiene permisos de edición en la organización de origen del repositorio.
+-   **Markdown (.md)** : una forma de escribir contenido que convierte texto plano en texto formateado.
+-   **Confirmar cambios** : un registro guardado de un cambio realizado en un archivo dentro del repositorio.
+-   **Solicitud de extracción (PR)** : una solicitud para que los cambios realizados en una rama se incorporen a otra rama. Permite que varios usuarios vean, discutan y revisen el trabajo propuesto.
+-   **Fusión** : después de que se aprueba una solicitud de extracción, la confirmación se extraerá (o fusionará) de una rama a otra y luego se implementará en el sitio en producción.
+-   **Incidencias** : permite a los usuarios informar sobre incidencias o errores y realizar un seguimiento del progreso en la asignación de la solución a dichas incidencias.
+-   [**Cloud.gov Pages (anteriormente Federalist)**](https://cloud.gov/pages/features/) : una plataforma que implementa de forma segura un sitio web desde un repositorio de GitHub en cuestión de minutos y permite a los usuarios previsualizar los cambios propuestos y publicados.
+-   **Proyectos** : permite usar GitHub para la gestión de proyectos y el seguimiento de un conjunto de problemas, ya sea para un repositorio específico o para toda una organización.
+-   **Wiki** : una sección de un repositorio destinada a alojar documentación. La documentación también puede encontrarse en los archivos README del repositorio.
