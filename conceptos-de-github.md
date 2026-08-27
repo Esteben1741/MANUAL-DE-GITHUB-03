@@ -33,3 +33,8 @@ Conceptos de Git
 Concepto    Descripción Comando / Ejemplo
 # Conclusión 
 -Git es una herramienta fundamental para controlar y organizar los cambios realizados en un proyecto. Sus diferentes conceptos, como los commits, ramas, repositorios y comandos, permiten trabajar de una manera más ordenada y segura. Además, GitHub facilita el trabajo colaborativo al permitir compartir proyectos y trabajar con otras personas.
+Repositorio (Repo): El espacio virtual donde se almacena el proyecto (código fuente, archivos, recursos e historial de versiones). Puede ser público o privado.
+
+Pull Request (PR): El núcleo de la colaboración. Es una solicitud para fusionar (merge) los cambios de una rama hacia otra (generalmente la principal), permitiendo la revisión y discusión del código antes de integrarlo.
+
+Issues: El sistema de seguimiento de tareas, errores (bugs), solicitudes de funciones y discusiones del proyecto. Funcionan como tickets organizados con etiquetas e hitos (milestones).
