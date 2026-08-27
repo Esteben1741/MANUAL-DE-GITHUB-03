@@ -43,3 +43,11 @@ Issues: El sistema de seguimiento de tareas, errores (bugs), solicitudes de func
 -   **Actions:** El sistema integrado de Integración Continua y Despliegue Continuo (CI/CD) para automatizar pruebas, compilaciones y despliegues directamente desde el repositorio.
     
 -   **Pages:** Servicio gratuito para alojar y publicar sitios web estáticos directamente desde una rama del repositorio.
+ **README:** El archivo principal en formato Markdown (`README.md`) que funciona como la portada, descripción, documentación e instrucciones de instalación del proyecto.
+    
+-   **Gists:** Espacio secundario para compartir fragmentos de código, notas o scripts rápidos sin necesidad de crear un repositorio completo.
+    
+-   **Organizations y Teams:** Estructuras administrativas para agrupar desarrolladores, gestionar permisos de acceso y colaborar a nivel empresarial o comunitario.
+    
+-   **GitHub Flow:** El flujo de trabajo estándar basado en ramas (`branches`), donde se crea una rama para cada nueva funcionalidad o corrección antes de abrir un Pull Request.
+
