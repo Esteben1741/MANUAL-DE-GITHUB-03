@@ -37,3 +37,11 @@ GitHub permite que varios desarrolladores trabajen simultáneamente en un mismo 
 -   [**Cloud.gov Pages (anteriormente Federalist)**](https://cloud.gov/pages/features/) : una plataforma que implementa de forma segura un sitio web desde un repositorio de GitHub en cuestión de minutos y permite a los usuarios previsualizar los cambios propuestos y publicados.
 -   **Proyectos** : permite usar GitHub para la gestión de proyectos y el seguimiento de un conjunto de problemas, ya sea para un repositorio específico o para toda una organización.
 -   **Wiki** : una sección de un repositorio destinada a alojar documentación. La documentación también puede encontrarse en los archivos README del repositorio.
+
+## ¿Cómo utilizo GitHub?
+
+-   **Paso 1** : Los miembros del equipo abrirán una incidencia a través de un tablero de proyecto.
+-   **Paso 2** : Los miembros del equipo crearán una nueva rama a partir de la versión más reciente de la rama principal en el repositorio donde trabaja todo el equipo para evitar conflictos.
+-   **Paso 3** : Los miembros del equipo añadirán confirmaciones (ediciones o cambios) a sus respectivas ramas.
+-   **Paso 4** : Los miembros del equipo abrirán una solicitud de extracción en la que los usuarios podrán asignar a otros miembros del equipo para que revisen los cambios de contenido y discutan internamente los detalles de las confirmaciones.
+-   **Paso 5** : Tras esperar a que finalice la compilación de Federalist, los miembros del equipo pueden previsualizar el cambio en una versión de prueba del sitio web y solicitar a los revisores que lo aprueben o comenten. Una vez que los revisores aprueban la solicitud de extracción, las confirmaciones se integran en la rama principal y se publican en el sitio web en producción.
