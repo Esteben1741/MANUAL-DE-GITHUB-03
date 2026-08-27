@@ -65,3 +65,11 @@ Quiero deshacer un commit publicado	El commit ya fue enviado al repositorio remo
 Git muestra conflictos	Existen cambios incompatibles entre versiones.	Busca los archivos marcados, resuelve los conflictos y confirma los cambios.	git status
 Olvidé agregar un archivo al último commit	El archivo quedó fuera del commit.	Agrégalo y modifica el último commit.	git add archivo.txt → git commit --amend
 No sé qué cambios hice	Hay modificaciones locales que no recuerdas
+
+Comandos útiles para diagnosticar problemas:
+git status
+git log
+git diff
+git branch
+git remote -v
+git fetch
