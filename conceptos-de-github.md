@@ -44,3 +44,21 @@ Concepto    Descripción Comando / Ejemplo
 
 # Conclusión 
 -Git es una herramienta fundamental para controlar y organizar los cambios realizados en un proyecto. Sus diferentes conceptos, como los commits, ramas, repositorios y comandos, permiten trabajar de una manera más ordenada y segura. Además, GitHub facilita el trabajo colaborativo al permitir compartir proyectos y trabajar con otras personas.
+Repositorio (Repo): El espacio virtual donde se almacena el proyecto (código fuente, archivos, recursos e historial de versiones). Puede ser público o privado.
+
+Pull Request (PR): El núcleo de la colaboración. Es una solicitud para fusionar (merge) los cambios de una rama hacia otra (generalmente la principal), permitiendo la revisión y discusión del código antes de integrarlo.
+
+Issues: El sistema de seguimiento de tareas, errores (bugs), solicitudes de funciones y discusiones del proyecto. Funcionan como tickets organizados con etiquetas e hitos (milestones).
+**Fork:** Una copia personal del repositorio de otro usuario alojada en tu propia cuenta. Se utiliza para experimentar o proponer cambios en proyectos de terceros (muy común en código abierto).
+    
+-   **Actions:** El sistema integrado de Integración Continua y Despliegue Continuo (CI/CD) para automatizar pruebas, compilaciones y despliegues directamente desde el repositorio.
+    
+-   **Pages:** Servicio gratuito para alojar y publicar sitios web estáticos directamente desde una rama del repositorio.
+ **README:** El archivo principal en formato Markdown (`README.md`) que funciona como la portada, descripción, documentación e instrucciones de instalación del proyecto.
+    
+-   **Gists:** Espacio secundario para compartir fragmentos de código, notas o scripts rápidos sin necesidad de crear un repositorio completo.
+    
+-   **Organizations y Teams:** Estructuras administrativas para agrupar desarrolladores, gestionar permisos de acceso y colaborar a nivel empresarial o comunitario.
+    
+-   **GitHub Flow:** El flujo de trabajo estándar basado en ramas (`branches`), donde se crea una rama para cada nueva funcionalidad o corrección antes de abrir un Pull Request.
+
