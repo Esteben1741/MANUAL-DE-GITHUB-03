@@ -6,3 +6,13 @@
 
  - Actualmente, GitHub es utilizado por millones de desarrolladores y organizaciones de todo el mundo, incluyendo empresas, instituciones educativas y comunidades de software libre. La plataforma también ofrece servicios como GitHub Actions, utilizado para automatizar procesos de desarrollo, pruebas y publicación de aplicaciones. Por todo esto, GitHub se ha convertido en una herramienta fundamental en el mundo de la programación, ya que no solo permite almacenar código, sino también colaborar, aprender, gestionar proyectos y participar en el desarrollo de nuevas tecnologías.
  
+ # Introducción a GitHub
+
+| Tema | Información |
+|---|---|
+| ¿Qué es GitHub? | Es una plataforma para almacenar, compartir y gestionar proyectos de programación. |
+| ¿Para qué sirve? | Permite guardar código, colaborar con otras personas y controlar los cambios de un proyecto. |
+| Relación con Git | GitHub utiliza Git para registrar y administrar los cambios realizados en los archivos. |
+| Repositorios | Son espacios donde se almacenan los archivos y código de un proyecto. |
+| Colaboración | Permite trabajar en equipo mediante ramas, commits y pull requests. |
+| Importancia | Es una herramienta muy utilizada en proyectos de programación, educación y desarrollo profesional. |
