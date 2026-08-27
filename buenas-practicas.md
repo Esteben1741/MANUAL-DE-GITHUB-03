@@ -42,4 +42,24 @@ Evita hacer un único commit gigante que diga `"trabajo terminado"`. Es mejor gu
 * `Añade pruebas para usuarios`
 
 ---
+###  4. Usar ramas (branches)
 
+Si trabajan varias personas en el equipo, nunca hagan cambios directamente sobre la rama principal (`main`).
+
+**Ejemplo de organización de ramas:**
+*  `main`
+  *  `feature/login`
+  *  `feature/registro`
+  *  `fix/validacion-email`
+
+---
+###  5. Revisar los Pull Requests
+
+Antes de mezclar el código con `main`, otra persona del equipo debe revisar el trabajo.
+
+**¿Qué se comprueba en la revisión?**
+* Que el código funcione.
+* Que no rompa otras partes del proyecto.
+* Que siga las reglas del equipo.
+* Que no incluya contraseñas o información sensible.
+* Que todas las pruebas pasen con éxito.
