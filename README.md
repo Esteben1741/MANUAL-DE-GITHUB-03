@@ -31,6 +31,19 @@
 
 ```bash
 git commit -m "Agrega página principal"
+Conceptos de Git
+Concepto	Descripción	Comando / Ejemplo
+# Conceptos de Git
+
+| Concepto    | Descripción | Comando / Ejemplo                     |
+| Git         | Sistema de control de versiones. | `git --version`  |
+| Repositorio | Carpeta donde Git guarda el proyecto y su historial.| `git init` |
+| Commit      | Guarda un conjunto de cambios en el historial.      | `git commit -m "Mensaje"`    |
+| Branch      | Rama independiente de desarrollo.                   | `git branch nueva-rama` |
+| Merge       | Combina los cambios de dos ramas.                   | `git merge nueva-rama` |
+| Push        | Envía cambios al repositorio remoto.                 | `git push` |
+| Pull        | Descarga e integra cambios del repositorio remoto.   | `git pull` |
+
 
 # Conclusión 
 -Git es una herramienta fundamental para controlar y organizar los cambios realizados en un proyecto. Sus diferentes conceptos, como los commits, ramas, repositorios y comandos, permiten trabajar de una manera más ordenada y segura. Además, GitHub facilita el trabajo colaborativo al permitir compartir proyectos y trabajar con otras personas.
