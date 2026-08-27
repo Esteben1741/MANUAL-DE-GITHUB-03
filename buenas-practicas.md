@@ -31,5 +31,15 @@ El archivo `README.md` es la carta de presentación de tu proyecto.
 * **Cómo contribuir** al código.
 * **Ejemplos de uso** con imágenes o código.
 
+---###  3. Hacer commits pequeños y descriptivos
+
+Evita hacer un único commit gigante que diga `"trabajo terminado"`. Es mejor guardar los cambios en partes pequeñas.
+
+**Ejemplos de buenos commits:**
+* `Añade formulario de registro`
+* `Corrige validación del correo`
+* `Actualiza documentación de instalación`
+* `Añade pruebas para usuarios`
+
 ---
 
