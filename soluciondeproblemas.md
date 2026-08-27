@@ -13,3 +13,33 @@ La solución de problemas en Git engloba las técnicas y comandos necesarios par
 -   **Auditar e inspeccionar el historial:** Permite rastrear exactamente qué línea de código introdujo un fallo y qué desarrollador o commit lo ocasionó (usando herramientas como `git log`, `git diff` o `git bisect`).
     
 -   **Mantener la limpieza del repositorio:** Ayuda a corregir mensajes de commit mal redactados, fusionar commits desordenados antes de enviarlos a producción (`git rebase`) y limpiar ramas en desuso.
+
+## **Soluciones a los errores más comunes**
+
+
+**1. "fatal: refusing to merge unrelated histories" (al hacer `git pull`)**
+
+-   **Causa:** Intentas unir dos repositorios que no comparten un commit inicial en común.
+    
+-   **Solución:**
+      - git pull origin main --allow-unrelated-histories
+      **2. "error: failed to push some refs to..." / "Updates were rejected"**
+
+-   **Causa:** El repositorio remoto tiene commits que no tienes en tu copia local.
+    
+-   **Solución:** Descarga y combina los cambios antes de subir:
+     - git pull --rebase origin main
+      - git push origin main
+      **3. Conflictos al hacer `merge` o `pull`**
+
+-   **Causa:** Dos ramas modificaron la misma línea de un archivo de forma distinta.
+    
+-   **Solución:**
+    
+    1.  Abre los archivos marcados con conflicto (buscando `<<<<<<<`, `=======`, `>>>>>>>`).
+        
+    2.  Modifica el código dejando solo la versión final deseada.
+        
+    3.  Guarda y marca el problema como resuelto:
+    - git add .
+    - git commit -m "Fix: resolución de conflicto"
