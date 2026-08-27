@@ -4,4 +4,5 @@
  
  - Una de las características más importantes de GitHub son los repositorios, que funcionan como espacios donde se almacenan los archivos y el código de un proyecto. Además, la plataforma cuenta con herramientas como pull requests, que permiten proponer y revisar cambios antes de incorporarlos a un proyecto, y issues, que sirven para reportar errores, organizar tareas y planificar mejoras. Estas funciones hacen que GitHub sea especialmente útil para el trabajo en equipo y para proyectos de código abierto.
 
+ - Actualmente, GitHub es utilizado por millones de desarrolladores y organizaciones de todo el mundo, incluyendo empresas, instituciones educativas y comunidades de software libre. La plataforma también ofrece servicios como GitHub Actions, utilizado para automatizar procesos de desarrollo, pruebas y publicación de aplicaciones. Por todo esto, GitHub se ha convertido en una herramienta fundamental en el mundo de la programación, ya que no solo permite almacenar código, sino también colaborar, aprender, gestionar proyectos y participar en el desarrollo de nuevas tecnologías.
  
