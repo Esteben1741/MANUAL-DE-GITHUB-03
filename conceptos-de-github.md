@@ -38,3 +38,8 @@ Repositorio (Repo): El espacio virtual donde se almacena el proyecto (código fu
 Pull Request (PR): El núcleo de la colaboración. Es una solicitud para fusionar (merge) los cambios de una rama hacia otra (generalmente la principal), permitiendo la revisión y discusión del código antes de integrarlo.
 
 Issues: El sistema de seguimiento de tareas, errores (bugs), solicitudes de funciones y discusiones del proyecto. Funcionan como tickets organizados con etiquetas e hitos (milestones).
+**Fork:** Una copia personal del repositorio de otro usuario alojada en tu propia cuenta. Se utiliza para experimentar o proponer cambios en proyectos de terceros (muy común en código abierto).
+    
+-   **Actions:** El sistema integrado de Integración Continua y Despliegue Continuo (CI/CD) para automatizar pruebas, compilaciones y despliegues directamente desde el repositorio.
+    
+-   **Pages:** Servicio gratuito para alojar y publicar sitios web estáticos directamente desde una rama del repositorio.
