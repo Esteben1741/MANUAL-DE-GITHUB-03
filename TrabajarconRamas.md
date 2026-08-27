@@ -74,3 +74,47 @@ Estas protecciones ayudan a los equipos a mantener las ramas importantes estable
 |Feature **(feature/***)|Se usa para construir una funcionalidad específica (ej: feature/login-google).|Temporal (se elimina al fusionarse)|
 |Hotfix **(hotfix/***)|Permite corregir errores críticos directamente sobre producción sin esperar el flujo normal.|Temporal (se fusiona a main y develop)|
 |Release **(release/***)|Se utiliza para preparar, probar y ajustar un lanzamiento formal a producción.|Temporal|
+
+
+## Comandos básicos para trabajar con ramas
+- git branch: Muestra las ramas disponibles en el repositorio.
+- git branch nombre-rama: Crea una nueva rama.
+- git switch nombre-rama: Cambia a una rama existente.
+- git switch -c nombre-rama: Crea una rama nueva y cambia a ella.
+- git push origin nombre-rama: Sube la rama al repositorio remoto.
+- git merge nombre-rama: Combina los cambios de una rama con otra.
+- git branch -d nombre-rama: Elimina una rama local que ya fue fusionada.
+- Diferencia entre Git y GitHub
+
+## Diagrama del flujo de ramas
+main
+ │
+ ├── feature/login
+ │       │
+ │       └── Pull Request
+ │              │
+ │              ↓
+ └─────────── Merge
+                │
+                ↓
+               main
+
+## Ventajas de trabajar con ramas
+- Permiten trabajar en diferentes funcionalidades sin afectar el código principal.
+- Facilitan el trabajo colaborativo.
+- Permiten probar cambios de forma independiente.
+- Ayudan a organizar mejor el desarrollo del proyecto.
+- Facilitan la revisión del código mediante Pull Requests.
+- Permiten mantener una versión estable del proyecto.
+- Buenas prácticas al trabajar con ramas
+
+
+## Utilizar nombres descriptivos para las ramas.
+- Mantener las ramas actualizadas con main.
+- Realizar commits pequeños y claros.
+- Crear Pull Requests para revisar los cambios.
+- Eliminar las ramas que ya no sean necesarias.
+- Proteger las ramas principales del proyecto.
+- Evitar trabajar directamente sobre main en proyectos colaborativos.
+
+
