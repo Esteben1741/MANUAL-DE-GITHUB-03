@@ -49,3 +49,11 @@ La solución de problemas en Git engloba las técnicas y comandos necesarios par
     
 -   **Solución:** Elimina manualmente el archivo de bloqueo:
    - rm -f .git/index.lock
+Problema	Causa posible	Solución	Comando
+No puedo hacer git push	El repositorio remoto tiene cambios que no tienes localmente.	Descarga los cambios y vuelve a intentar.	git pull --rebase
+Conflicto al hacer git merge	Dos ramas modificaron las mismas líneas.	Resuelve manualmente los conflictos y realiza un commit.	git add . → git commit
+Hice un commit por error	El commit contiene cambios incorrectos.	Deshaz el último commit manteniendo los cambios.	git reset --soft HEAD~1
+Eliminé archivos por error	Los archivos fueron modificados o eliminados localmente.	Recupera los archivos desde el último commit.	git restore archivo.txt
+Agregué un archivo incorrecto al staging	Usaste git add sobre el archivo equivocado.	Quita el archivo del staging sin eliminarlo.	git restore --staged archivo.txt
+Estoy en la rama equivocada	Se realizaron cambios en otra rama.	Cambia a la rama correcta.	git switch nombre-rama
+No encuentro una rama	La rama puede existir solo en el repositorio remoto.	Actualiza las referencias remotas.	git fetch
